@@ -1,0 +1,32 @@
+# MIT License
+# Copyright (c) 2026 NothingFlare
+
+prefix: "&8[&6SimpleChatLog&8] &r"
+no_permission: "&cこのコマンドを実行する権限がありません！"
+reloading: "{prefix}&e設定を再読み込みしています..."
+reloaded: "{prefix}&a設定が正常に再読み込みされました！"
+
+live_enabled: "{prefix}&aリアルタイム監視が&2有効&aになりました。すべてのチャットを受信します。"
+live_disabled: "{prefix}&cリアルタイム監視が&4無効&cになりました。"
+live_format: "&8[&bLIVE&8] &7({world}, {x}, {y}, {z}) &f{player}&8: &e{message}"
+
+stats_header: "&6================= &e[SimpleChatLog] &6================="
+stats_db_type: "&eデータベース形式: &f{db_type}"
+stats_queue_pending: "&eキュー内の保留中メッセージ数: &f{pending}"
+stats_session_logged: "&eこのセッションで記録されたメッセージ数: &f{session_logged}"
+stats_total_db: "&eデータベース内の総レコード数: &a{total}"
+stats_footer: "&6================================================="
+
+search_usage: "{prefix}&c使用法: /chatlog search <プレイヤー名> [件数]"
+search_invalid_limit: "{prefix}&c無効な件数です。デフォルトの10に設定されました。"
+search_searching: "{prefix}&eプレイヤー &b{player} &eのメッセージを検索中..."
+search_not_found: "{prefix}&cプレイヤー &b{player} &cのメッセージは見つかりませんでした。"
+search_header: "&6=== プレイヤー &b{player} &6の最新 {count} 件のメッセージ ==="
+search_format: "&7[{date}] &8({world}, {x}, {y}, {z}) &f{player}: &e{message}"
+search_footer: "&6================================================="
+
+help_header: "&6=== SimpleChatLog ヘルプ ==="
+help_reload: "&e/{cmd} reload &7- 設定を再読み込み"
+help_stats: "&e/{cmd} stats &7- キューとデータベースの統計を表示"
+help_search: "&e/{cmd} search <プレイヤー名> [件数] &7- プレイヤーのチャット履歴を検索"
+help_live: "&e/{cmd} live &7- リアルタイムチャット監視の切替"

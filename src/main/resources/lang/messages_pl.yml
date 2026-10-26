@@ -1,0 +1,32 @@
+# MIT License
+# Copyright (c) 2026 NothingFlare
+
+prefix: "&8[&6SimpleChatLog&8] &r"
+no_permission: "&cNie masz uprawnień do wykonania tego polecenia!"
+reloading: "{prefix}&ePrzeładowywanie konfiguracji..."
+reloaded: "{prefix}&aKonfiguracja została pomyślnie przeładowana!"
+
+live_enabled: "{prefix}&aTryb w czasie rzeczywistym &2WŁĄCZONY&a. Będziesz otrzymywać wszystkie wiadomości graczy."
+live_disabled: "{prefix}&cTryb w czasie rzeczywistym &4WYŁĄCZONY&c."
+live_format: "&8[&bLIVE&8] &7({world}, {x}, {y}, {z}) &f{player}&8: &e{message}"
+
+stats_header: "&6================= &e[SimpleChatLog] &6================="
+stats_db_type: "&eTyp bazy danych: &f{db_type}"
+stats_queue_pending: "&eWiadomości oczekujące w kolejce: &f{pending}"
+stats_session_logged: "&eZalogowane wiadomości w tej sesji: &f{session_logged}"
+stats_total_db: "&eŁączna liczba wpisów w bazie danych: &a{total}"
+stats_footer: "&6================================================="
+
+search_usage: "{prefix}&cUżycie: /chatlog search <gracz> [limit]"
+search_invalid_limit: "{prefix}&cNieprawidłowy limit. Ustawiono domyślnie 10."
+search_searching: "{prefix}&eWyszukiwanie wiadomości gracza &b{player}&e..."
+search_not_found: "{prefix}&cNie znaleziono wiadomości gracza &b{player}&c."
+search_header: "&6=== Ostatnie {count} wiadomości gracza &b{player} &6==="
+search_format: "&7[{date}] &8({world}, {x}, {y}, {z}) &f{player}: &e{message}"
+search_footer: "&6================================================="
+
+help_header: "&6=== Pomoc SimpleChatLog ==="
+help_reload: "&e/{cmd} reload &7- Przeładuj konfigurację"
+help_stats: "&e/{cmd} stats &7- Wyświetl statystyki kolejki i bazy danych"
+help_search: "&e/{cmd} search <gracz> [limit] &7- Wyszukaj historię wiadomości gracza"
+help_live: "&e/{cmd} live &7- Włącz/wyłącz podgląd czatu na żywo"

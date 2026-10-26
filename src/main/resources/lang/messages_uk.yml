@@ -1,0 +1,32 @@
+# MIT License
+# Copyright (c) 2026 NothingFlare
+
+prefix: "&8[&6SimpleChatLog&8] &r"
+no_permission: "&cУ вас немає дозволу на виконання цієї команди!"
+reloading: "{prefix}&eПерезавантаження конфігурації..."
+reloaded: "{prefix}&aКонфігурацію успішно перезавантажено!"
+
+live_enabled: "{prefix}&aРежим реального часу &2УВІМКНЕНО&a. Ви будете отримувати всі повідомлення гравців."
+live_disabled: "{prefix}&cРежим реального часу &4ВИМКНЕНО&c."
+live_format: "&8[&bLIVE&8] &7({world}, {x}, {y}, {z}) &f{player}&8: &e{message}"
+
+stats_header: "&6================= &e[SimpleChatLog] &6================="
+stats_db_type: "&eТип бази даних: &f{db_type}"
+stats_queue_pending: "&eОчікує запису в черзі: &f{pending}"
+stats_session_logged: "&eЗалоговано повідомлень за сесію: &f{session_logged}"
+stats_total_db: "&eВсього записів у базі даних: &a{total}"
+stats_footer: "&6================================================="
+
+search_usage: "{prefix}&cВикористання: /chatlog search <гравець> [ліміт]"
+search_invalid_limit: "{prefix}&cНекоректне число ліміту. Встановлено 10."
+search_searching: "{prefix}&eПошук повідомлень гравця &b{player}&e..."
+search_not_found: "{prefix}&cПовідомлень гравця &b{player} &cне знайдено."
+search_header: "&6=== Останні {count} повідомлень гравця &b{player} &6==="
+search_format: "&7[{date}] &8({world}, {x}, {y}, {z}) &f{player}: &e{message}"
+search_footer: "&6================================================="
+
+help_header: "&6=== SimpleChatLog Допомога ==="
+help_reload: "&e/{cmd} reload &7- Перезавантажити конфігурацію"
+help_stats: "&e/{cmd} stats &7- Показати статус черги та БД"
+help_search: "&e/{cmd} search <гравець> [ліміт] &7- Пошук останніх повідомлень гравця"
+help_live: "&e/{cmd} live &7- Увімкнути/вимкнути чат у реальному часі"

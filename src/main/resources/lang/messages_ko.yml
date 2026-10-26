@@ -1,0 +1,32 @@
+# MIT License
+# Copyright (c) 2026 NothingFlare
+
+prefix: "&8[&6SimpleChatLog&8] &r"
+no_permission: "&c이 명령어를 실행할 권한이 없습니다!"
+reloading: "{prefix}&e구성을 다시 로드하는 중..."
+reloaded: "{prefix}&a구성이 성공적으로 다시 로드되었습니다!"
+
+live_enabled: "{prefix}&a실시간 모드가 &2활성화&a되었습니다. 모든 플레이어 메시지를 수신합니다."
+live_disabled: "{prefix}&c실시간 모드가 &4비활성화&c되었습니다."
+live_format: "&8[&bLIVE&8] &7({world}, {x}, {y}, {z}) &f{player}&8: &e{message}"
+
+stats_header: "&6================= &e[SimpleChatLog] &6================="
+stats_db_type: "&e데이터베이스 유형: &f{db_type}"
+stats_queue_pending: "&e대기열에서 보류 중인 메시지: &f{pending}"
+stats_session_logged: "&e이번 세션에 기록된 메시지: &f{session_logged}"
+stats_total_db: "&e데이터베이스 총 기록 수: &a{total}"
+stats_footer: "&6================================================="
+
+search_usage: "{prefix}&c사용법: /chatlog search <플레이어> [개수]"
+search_invalid_limit: "{prefix}&c잘못된 개수 제한입니다. 기본값 10으로 설정되었습니다."
+search_searching: "{prefix}&b{player}&e 플레이어의 메시지를 검색 중..."
+search_not_found: "{prefix}&c플레이어 &b{player}&c의 메시지를 찾을 수 없습니다."
+search_header: "&6=== &b{player} &6플레이어의 최근 {count}개 메시지 ==="
+search_format: "&7[{date}] &8({world}, {x}, {y}, {z}) &f{player}: &e{message}"
+search_footer: "&6================================================="
+
+help_header: "&6=== SimpleChatLog 도움말 ==="
+help_reload: "&e/{cmd} reload &7- 구성 다시 로드"
+help_stats: "&e/{cmd} stats &7- 대기열 및 데이터베이스 통계 표시"
+help_search: "&e/{cmd} search <플레이어> [개수] &7- 플레이어의 채팅 내역 검색"
+help_live: "&e/{cmd} live &7- 실시간 채팅 모니터링 토글"

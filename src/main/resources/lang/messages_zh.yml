@@ -1,0 +1,32 @@
+# MIT License
+# Copyright (c) 2026 NothingFlare
+
+prefix: "&8[&6SimpleChatLog&8] &r"
+no_permission: "&c您没有权限执行此命令！"
+reloading: "{prefix}&e正在重新加载配置..."
+reloaded: "{prefix}&a配置已成功重新加载！"
+
+live_enabled: "{prefix}&a实时聊天监视已&2开启&a。您将接收所有玩家消息。"
+live_disabled: "{prefix}&c实时聊天监视已&4关闭&c。"
+live_format: "&8[&bLIVE&8] &7({world}, {x}, {y}, {z}) &f{player}&8: &e{message}"
+
+stats_header: "&6================= &e[SimpleChatLog] &6================="
+stats_db_type: "&e数据库类型: &f{db_type}"
+stats_queue_pending: "&e队列中等待写入的消息: &f{pending}"
+stats_session_logged: "&e本会话已记录消息: &f{session_logged}"
+stats_total_db: "&e数据库总记录数: &a{total}"
+stats_footer: "&6================================================="
+
+search_usage: "{prefix}&c用法: /chatlog search <玩家> [数量]"
+search_invalid_limit: "{prefix}&c无效的数量限制，已设为默认值 10。"
+search_searching: "{prefix}&e正在查询玩家 &b{player} &e的消息..."
+search_not_found: "{prefix}&c未找到玩家 &b{player} &c的消息。"
+search_header: "&6=== 玩家 &b{player} &6最近的 {count} 条消息 ==="
+search_format: "&7[{date}] &8({world}, {x}, {y}, {z}) &f{player}: &e{message}"
+search_footer: "&6================================================="
+
+help_header: "&6=== SimpleChatLog 帮助 ==="
+help_reload: "&e/{cmd} reload &7- 重新加载配置"
+help_stats: "&e/{cmd} stats &7- 查看队列与数据库统计"
+help_search: "&e/{cmd} search <玩家> [数量] &7- 搜索玩家的历史聊天"
+help_live: "&e/{cmd} live &7- 开关实时聊天监视"

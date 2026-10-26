@@ -1,0 +1,32 @@
+# MIT License
+# Copyright (c) 2026 NothingFlare
+
+prefix: "&8[&6SimpleChatLog&8] &r"
+no_permission: "&cBu komutu kullanmak için yetkiniz yok!"
+reloading: "{prefix}&eYapılandırma yeniden yükleniyor..."
+reloaded: "{prefix}&aYapılandırma başarıyla yeniden yüklendi!"
+
+live_enabled: "{prefix}&aGerçek zamanlı mod &2ETKİNLEŞTİRİLDİ&a. Tüm oyuncu mesajlarını alacaksınız."
+live_disabled: "{prefix}&cGerçek zamanlı mod &4DEVRE DIŞI BIRAKILDI&c."
+live_format: "&8[&bLIVE&8] &7({world}, {x}, {y}, {z}) &f{player}&8: &e{message}"
+
+stats_header: "&6================= &e[SimpleChatLog] &6================="
+stats_db_type: "&eVeritabanı türü: &f{db_type}"
+stats_queue_pending: "&eKuyrukta bekleyen mesajlar: &f{pending}"
+stats_session_logged: "&eBu oturumda kaydedilen mesajlar: &f{session_logged}"
+stats_total_db: "&eVeritabanındaki toplam kayıt: &a{total}"
+stats_footer: "&6================================================="
+
+search_usage: "{prefix}&cKullanım: /chatlog search <oyuncu> [limit]"
+search_invalid_limit: "{prefix}&cGeçersiz limit sayısı. Varsayılan 10 olarak ayarlandı."
+search_searching: "{prefix}&e&b{player}&e adlı oyuncunun mesajları aranıyor..."
+search_not_found: "{prefix}&c&b{player} &cadlı oyuncuya ait mesaj bulunamadı."
+search_header: "&6=== &b{player} &6adlı oyuncunun son {count} mesajı ==="
+search_format: "&7[{date}] &8({world}, {x}, {y}, {z}) &f{player}: &e{message}"
+search_footer: "&6================================================="
+
+help_header: "&6=== SimpleChatLog Yardım ==="
+help_reload: "&e/{cmd} reload &7- Yapılandırmayı yeniden yükle"
+help_stats: "&e/{cmd} stats &7- Kuyruk ve veritabanı durumunu göster"
+help_search: "&e/{cmd} search <oyuncu> [limit] &7- Oyuncunun sohbet geçmişini ara"
+help_live: "&e/{cmd} live &7- Gerçek zamanlı sohbet izlemeyi aç/kapat"

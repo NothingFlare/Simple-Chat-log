@@ -1,0 +1,18 @@
+name: SimpleChatLog
+version: '1.2'
+main: ru.nothingflare.simplechat.SimpleChatLogPlugin
+api-version: '1.13'
+folia-supported: true
+author: NothingFlare
+description: Легкий асинхронный плагин для логирования чата с поддержкой MySQL и SQLite
+
+commands:
+  chatlog:
+    description: Основная команда управления логированием чата
+    permission: chatlog.admin
+    aliases: [clog, chatlogs]
+
+permissions:
+  chatlog.admin:
+    description: Доступ к просмотру логов чата, статистики и перезагрузке
+    default: op

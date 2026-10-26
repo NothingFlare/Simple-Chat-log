@@ -1,0 +1,32 @@
+# MIT License
+# Copyright (c) 2026 NothingFlare
+
+prefix: "&8[&6SimpleChatLog&8] &r"
+no_permission: "&cYou do not have permission to execute this command!"
+reloading: "{prefix}&eReloading configuration..."
+reloaded: "{prefix}&aConfiguration reloaded successfully!"
+
+live_enabled: "{prefix}&aReal-time chat monitoring &2ENABLED&a. You will receive all player messages."
+live_disabled: "{prefix}&cReal-time chat monitoring &4DISABLED&c."
+live_format: "&8[&bLIVE&8] &7({world}, {x}, {y}, {z}) &f{player}&8: &e{message}"
+
+stats_header: "&6================= &e[SimpleChatLog] &6================="
+stats_db_type: "&eDatabase type: &f{db_type}"
+stats_queue_pending: "&ePending messages in queue: &f{pending}"
+stats_session_logged: "&eLogged messages this session: &f{session_logged}"
+stats_total_db: "&eTotal records in database: &a{total}"
+stats_footer: "&6================================================="
+
+search_usage: "{prefix}&cUsage: /chatlog search <player> [limit]"
+search_invalid_limit: "{prefix}&cInvalid limit number. Defaulted to 10."
+search_searching: "{prefix}&eSearching messages for &b{player}&e..."
+search_not_found: "{prefix}&cNo messages found for player &b{player}&c."
+search_header: "&6=== Last {count} messages from &b{player} &6==="
+search_format: "&7[{date}] &8({world}, {x}, {y}, {z}) &f{player}: &e{message}"
+search_footer: "&6================================================="
+
+help_header: "&6=== SimpleChatLog Help ==="
+help_reload: "&e/{cmd} reload &7- Reload configuration"
+help_stats: "&e/{cmd} stats &7- Show queue & DB statistics"
+help_search: "&e/{cmd} search <player> [limit] &7- Search player's chat history"
+help_live: "&e/{cmd} live &7- Toggle real-time chat monitoring"
