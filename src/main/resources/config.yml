@@ -6,6 +6,10 @@
 # Поддерживаются: en, ru, zh, de, fr, es, pt, ja, uk, it, pl, tr, ko
 language: "ru"
 
+# Автоматическая проверка обновлений (GitHub)
+# =======================================================
+check-updates: true
+
 # Выбор типа базы данных: 'sqlite' или 'mysql'
 database:
   type: "mysql" # sqlite или mysql

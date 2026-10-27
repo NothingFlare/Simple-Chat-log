@@ -30,3 +30,11 @@ help_reload: "&e/{cmd} reload &7- 구성 다시 로드"
 help_stats: "&e/{cmd} stats &7- 대기열 및 데이터베이스 통계 표시"
 help_search: "&e/{cmd} search <플레이어> [개수] &7- 플레이어의 채팅 내역 검색"
 help_live: "&e/{cmd} live &7- 실시간 채팅 모니터링 토글"
+
+console:
+  updates-checking: "[SimpleChatLog] 업데이트 확인 중..."
+  updates-latest: "[SimpleChatLog] 최신 버전을 실행 중입니다 (v{version})"
+  updates-available: "[SimpleChatLog] 새로운 버전을 사용할 수 있습니다: v{remote} (현재: v{current})"
+  updates-download: "[SimpleChatLog] 업데이트 다운로드:"
+  updates-fail: "[SimpleChatLog] GitHub API에서 최신 버전 정보를 가져오지 못했습니다."
+  updates-error: "[SimpleChatLog] 업데이트 확인 중 오류 발생: {error}"

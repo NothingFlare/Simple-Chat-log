@@ -30,3 +30,11 @@ help_reload: "&e/{cmd} reload &7- Recharger la configuration"
 help_stats: "&e/{cmd} stats &7- Afficher l'état de la file et de la BDD"
 help_search: "&e/{cmd} search <joueur> [limite] &7- Rechercher les messages d'un joueur"
 help_live: "&e/{cmd} live &7- Activer/désactiver la surveillance en direct"
+
+console:
+  updates-checking: "[SimpleChatLog] Recherche de mises à jour..."
+  updates-latest: "[SimpleChatLog] Vous utilisez la dernière version (v{version})"
+  updates-available: "[SimpleChatLog] Nouvelle version disponible : v{remote} (Actuelle : v{current})"
+  updates-download: "[SimpleChatLog] Télécharger la mise à jour sur :"
+  updates-fail: "[SimpleChatLog] Impossible de récupérer la version depuis l'API GitHub."
+  updates-error: "[SimpleChatLog] Erreur lors de la vérification des mises à jour : {error}"

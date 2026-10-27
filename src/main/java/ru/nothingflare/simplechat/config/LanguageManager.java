@@ -130,6 +130,27 @@ public class LanguageManager {
         return message;
     }
 
+    public String get(String key, Object... placeholders) {
+        String message = messageCache.get(key);
+        if (message == null) {
+            message = getRawMessage(key);
+            if (message == null || message.equals(key)) {
+                return key;
+            }
+            String prefix = getRawMessage("prefix");
+            message = message.replace("{prefix}", prefix);
+        }
+
+        if (placeholders != null && placeholders.length > 0) {
+            for (int i = 0; i < placeholders.length - 1; i += 2) {
+                String k = String.valueOf(placeholders[i]);
+                String v = String.valueOf(placeholders[i + 1]);
+                message = message.replace("{" + k + "}", v != null ? v : "");
+            }
+        }
+        return message;
+    }
+
     public String getCurrentLanguage() {
         return currentLanguage;
     }

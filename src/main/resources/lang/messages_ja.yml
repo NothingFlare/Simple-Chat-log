@@ -30,3 +30,11 @@ help_reload: "&e/{cmd} reload &7- 設定を再読み込み"
 help_stats: "&e/{cmd} stats &7- キューとデータベースの統計を表示"
 help_search: "&e/{cmd} search <プレイヤー名> [件数] &7- プレイヤーのチャット履歴を検索"
 help_live: "&e/{cmd} live &7- リアルタイムチャット監視の切替"
+
+console:
+  updates-checking: "[SimpleChatLog] アップデートを確認中..."
+  updates-latest: "[SimpleChatLog] 最新バージョンを使用しています (v{version})"
+  updates-available: "[SimpleChatLog] 新しいバージョンが利用可能です: v{remote} (現在: v{current})"
+  updates-download: "[SimpleChatLog] ダウンロードはこちら:"
+  updates-fail: "[SimpleChatLog] GitHub API から最新バージョンを取得できませんでした。"
+  updates-error: "[SimpleChatLog] アップデート確認エラー: {error}"

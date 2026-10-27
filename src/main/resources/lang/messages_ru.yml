@@ -30,3 +30,11 @@ help_reload: "&e/{cmd} reload &7- Перезагрузить конфигура�
 help_stats: "&e/{cmd} stats &7- Показать статус очереди и БД"
 help_search: "&e/{cmd} search <игрок> [лимит] &7- Поиск последних сообщений игрока"
 help_live: "&e/{cmd} live &7- Включить/выключить чат в реальном времени"
+
+console:
+  updates-checking: "[SimpleChatLog] Проверка наличия обновлений..."
+  updates-latest: "[SimpleChatLog] Вы используете актуальную версию (v{version})"
+  updates-available: "[SimpleChatLog] Доступна новая версия: v{remote} (Текущая: v{current})"
+  updates-download: "[SimpleChatLog] Скачать обновление можно здесь:"
+  updates-fail: "[SimpleChatLog] Не удалось получить информацию о последней версии с GitHub API."
+  updates-error: "[SimpleChatLog] Ошибка при проверке обновлений: {error}"

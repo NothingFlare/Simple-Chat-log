@@ -11,6 +11,7 @@ import ru.nothingflare.simplechat.database.DatabaseManager;
 import ru.nothingflare.simplechat.listener.BukkitChatListener;
 import ru.nothingflare.simplechat.listener.PaperChatListener;
 import ru.nothingflare.simplechat.queue.ChatLogQueue;
+import ru.nothingflare.simplechat.update.UpdateChecker;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -52,6 +53,10 @@ public class SimpleChatLogPlugin extends JavaPlugin {
         registerCommands();
 
         printBanner(false);
+
+        if (getConfig().getBoolean("check-updates", true)) {
+            new UpdateChecker(getDescription().getVersion(), getLogger(), languageManager).checkAsync();
+        }
     }
 
     @Override
@@ -87,6 +92,10 @@ public class SimpleChatLogPlugin extends JavaPlugin {
         }
 
         printBanner(true);
+
+        if (getConfig().getBoolean("check-updates", true)) {
+            new UpdateChecker(getDescription().getVersion(), getLogger(), languageManager).checkAsync();
+        }
     }
 
     public void printBanner(boolean isReload) {

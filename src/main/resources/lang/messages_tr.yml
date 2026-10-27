@@ -30,3 +30,11 @@ help_reload: "&e/{cmd} reload &7- Yapılandırmayı yeniden yükle"
 help_stats: "&e/{cmd} stats &7- Kuyruk ve veritabanı durumunu göster"
 help_search: "&e/{cmd} search <oyuncu> [limit] &7- Oyuncunun sohbet geçmişini ara"
 help_live: "&e/{cmd} live &7- Gerçek zamanlı sohbet izlemeyi aç/kapat"
+
+console:
+  updates-checking: "[SimpleChatLog] Güncellemeler kontrol ediliyor..."
+  updates-latest: "[SimpleChatLog] En son sürümü kullanıyorsunuz (v{version})"
+  updates-available: "[SimpleChatLog] Yeni bir sürüm mevcut: v{remote} (Mevcut: v{current})"
+  updates-download: "[SimpleChatLog] Güncellemeyi buradan indirin:"
+  updates-fail: "[SimpleChatLog] GitHub API üzerinden son sürüm bilgisi alınamadı."
+  updates-error: "[SimpleChatLog] Güncelleme kontrolünde hata oluştu: {error}"

@@ -6,7 +6,7 @@
 
     <groupId>ru.nothingflare</groupId>
     <artifactId>simple-chat-log</artifactId>
-    <version>1.2</version>
+    <version>1.3</version>
     <packaging>jar</packaging>
 
     <name>SimpleChatLog</name>
@@ -48,6 +48,12 @@
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.45.1.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

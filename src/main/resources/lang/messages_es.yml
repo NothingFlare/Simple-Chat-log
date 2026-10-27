@@ -30,3 +30,11 @@ help_reload: "&e/{cmd} reload &7- Recargar configuración"
 help_stats: "&e/{cmd} stats &7- Ver estadísticas de cola y base de datos"
 help_search: "&e/{cmd} search <jugador> [límite] &7- Buscar historial de un jugador"
 help_live: "&e/{cmd} live &7- Alternar monitoreo de chat en tiempo real"
+
+console:
+  updates-checking: "[SimpleChatLog] Buscando actualizaciones..."
+  updates-latest: "[SimpleChatLog] Estás ejecutando la última versión (v{version})"
+  updates-available: "[SimpleChatLog] Nueva versión disponible: v{remote} (Actual: v{current})"
+  updates-download: "[SimpleChatLog] Descarga la actualización en:"
+  updates-fail: "[SimpleChatLog] No se pudo obtener la versión de la API de GitHub."
+  updates-error: "[SimpleChatLog] Error al buscar actualizaciones: {error}"
